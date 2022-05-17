@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 2s;
+}
+div:hover{
+    cursor: pointer;
+    transform: scale(0.5, 0.5);
+}

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+body{
+    background-color: #b71918;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-image: url("/assets/img/estadio-beirario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+header h1{
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
+header p{
+
+}
+header #QuemFoi{
+    margin: auto;
+    padding: 30px;
+    width: 850px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+main figure{
+    border: 2px solid white;
+    width: 350px;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 5px;
+}
+main figure figcaption{
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+main img{
+    width: 350px;
+}
+main section{
+    width: 900px;
+    margin: auto;
+}
+main section h2{
+    text-align: center;
+    font-size: 18px;
+}
+main section p{
+    text-align: justify;
+    padding: 10px;
+    font-size: 15px;
+}
+
+main .titulos{
+    padding-top: 20px;
+}
+main .titulos p{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+main .morte{
+    display: flex;
+    align-self: center;
+    margin: 70px auto;
+}
+main .morte .texto{
+    padding: 20px;
+}
+main .morte aside img{
+    width: 420px;
+    height: 500px;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+

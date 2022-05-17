@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    background-color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px 0px;
+}
+
+header h1{
+    color: white;
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+header nav ul{
+    display: flex;
+    padding-right: 10px;
+}
+header nav ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+header nav #borda{
+    border: 2px solid #840ec9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    padding-inline-end: 20px;
+}
+main section{
+    margin: 30px;
+}
+main section h2{
+    color: white;
+    line-height: 10px;
+    font-size: 3em;
+}
+main section #roxo{
+    color: #840ec9;
+}
+
+main section p{
+    color: white;
+    font-size: 18px;
+}
+main form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+main form input{
+    padding: 15px;
+    border-radius: 20px;
+    width: 100%;
+    color: black;
+    outline: none;
+    border: none;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+main form input[type="submit"]{
+    background-color: #840ec9;
+    color: white;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 18px;
+}

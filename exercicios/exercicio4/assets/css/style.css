@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202124;
+    font-weight: normal;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+header svg{
+    width: 30px;
+    color: white;
+}
+header img{
+    width: 40px;
+    border-radius: 50%;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+header nav ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+main form input[type="search"]{
+    width: 500px;
+    border: 1px solid #353638;
+    background: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+main form #bt button{
+    padding: 5px;
+    background-color: #353638;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.285);
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    margin: 30px 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+main #inf p{
+    padding: 25px;
+    color: white;
+}
+main #inf a{
+    text-decoration: none;
+    color: #8ab4f8;
+}
+footer{
+    margin: 0px;
+    background-color: #171717;
+    color: rgb(154, 160, 166);
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 97vw;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div ul{
+    display: flex;
+}
+footer div ul li{
+    list-style-type: none;
+}
+footer div nav ul li a{
+    padding: 10px;
+    color: rgb(154, 160, 166);
+    text-decoration: none;
+}

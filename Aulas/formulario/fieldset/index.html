@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset e legend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/" method="post">
+        <fieldset>
+            <legend>pessoal</legend>
+            <label>
+                nome:
+                <input type="text" id="nome" required> <!--required mostra um alerta que é obrigatorio preencher o campo-->
+            </label>
+            <label>
+                idade:
+                <input type="number" required min="18" max="45"> <!--maxlength e o maximo de caracter que o input pode ter-->
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>a respeito da empresa</legend>
+            <label>
+                o que podemos esperar de você: <br>
+                <textarea name="text" required minlength="10"></textarea>
+            </label>
+            <label>
+                fale mais sobre vc <br>
+                <textarea name="text2" required minlength="10">></textarea> 
+                <!-- minlength ser para dar limite de caracteres -->
+            </label>
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+</html>

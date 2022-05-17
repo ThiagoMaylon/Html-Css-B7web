@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+legend{
+    text-align: center;
+    background-color: blue;
+}
+fieldset{
+    margin-top: 10px;
+    background-color: rgba(204, 204, 204, 0.383);
+    border: 1px solid red;
+}
+label{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+textarea{
+    resize: none;
+    width: 400px;
+    height: 100px;
+    outline: none;
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+}
+.botao{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(to top, rgb(3, 3, 148), rgb(58, 58, 253));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    border-radius: 10px; 
+    padding: 10px;
+    box-shadow: 4px 4px 22px black;
+}
+
+.botao:hover{
+    background-image: linear-gradient(to bottom, rgb(3, 3, 148), rgb(58, 58, 253));
+}

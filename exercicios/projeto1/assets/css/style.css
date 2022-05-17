@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+.conteiner{
+    width: 990px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

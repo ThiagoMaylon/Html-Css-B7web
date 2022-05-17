@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+table, th, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    margin: 200px auto;
+}
+td, th{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+}
+th{
+    background-color: #CCCC;
+}
+tr:nth-child(even){
+    background-color: chartreuse;
+}

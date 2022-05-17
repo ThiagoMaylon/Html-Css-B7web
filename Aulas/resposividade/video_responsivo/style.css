@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+.video{
+    width: 100%;
+    max-width: 800px;
+}
+.video .VideoArea{
+    position: relative;
+    height: 0px;
+    padding: 0px 0px 56.25%;
+    background-color: #ccc;
+}
+
+.VideoArea iframe{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}

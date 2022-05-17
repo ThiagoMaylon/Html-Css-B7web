@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>form</h1>
+    <form action="#" method="post">
+        <label>
+            Nome:
+            <input type="text">
+        </label>
+        <label>
+            Idade:
+            <input type="number">
+        </label>
+        <label>
+            Data de Nascimento
+            <input type="date">
+        </label>
+        <label> 
+            <input type="radio"> masculino
+            <input type="radio"> feminino
+        </label>
+        <label >
+            categoria:
+            <select name="categoria">
+                <option value="nulo" selected> </option>
+                <option value="1">categoria 1</option>
+                <option value="2">categoria 2</option>
+                <option value="3">categoria 3 </option>
+            </select>
+        </label>
+        <label>
+            descrição sobre você:<br>
+            <textarea name="description" id="description"></textarea>
+        </label>
+        <label>
+            <input type="checkbox" name="check" id="check"> eu li e concordo com os <a href="#" target="_blanck">temos de segurança</a>
+        </label>
+        <input type="submit">
+    </form>
+</body>
+</html>
