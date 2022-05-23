@@ -417,7 +417,6 @@ header{
     height: 100%;
     min-height: 300px;
     display: inline-block;
-    background-color: #fff;
     margin-right: 20px;
 }
 
@@ -441,4 +440,40 @@ header{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+}
+.section-client--role{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.section-client--quote{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.section-client--depoiment{
+    color: #7f7f7f;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.section-client .slider-pointer{
+    margin-top: 50px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.section-client .slider-pointer .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.section-client .slider-pointer .pointer.active{
+    background-color: #B28756;
 }
