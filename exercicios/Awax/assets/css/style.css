@@ -406,6 +406,7 @@ header{
     overflow: hidden;
     max-width: 730px;
     margin: auto;
+    background-color: #f7f7f7;
 }
 .section-client .sliders{
     width: 1000vw;
@@ -476,4 +477,24 @@ header{
 }
 .section-client .slider-pointer .pointer.active{
     background-color: #B28756;
+}
+
+
+.section-marcas{
+    background-color: #fff;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+
+}
+.marcasarea{
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    display: flex;
+    justify-content: space-around;
 }
