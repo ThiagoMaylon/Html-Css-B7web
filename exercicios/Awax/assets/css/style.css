@@ -504,6 +504,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 .section-price{
     margin-right: 30px;
@@ -562,3 +563,6 @@ header{
 .buttom.active{
     background-color: #B28756;
 }
+
+
+
