@@ -594,12 +594,59 @@ header{
     color: #000;
     height: 100%;
     justify-content: center;
-    flex-direction: column;
     padding: 30px;
+    border-bottom: 1px solid #ccc;
 }
 
-.section-premium .slidearea{
+.section-premium .section-premium--img-left{
+    margin-right: 130px;
+}
+
+.section-premium .section-premium--right ul li{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-top: 30px;
+}
+.section-premium .section-premium--right ul li::before {
+    content: url("/assets/images/check.png");
+    position: absolute;
+    left: 48%;
+}
+.section-premium .section-premium--right {
+    font-size: 15px;
+    line-height: 25px;
+}
+.section-premium .section-premium--right p{
+    color: #999;
+}
+.section-premium .section-premium--right .p--upper{
+    text-transform: uppercase;
+    color: #999;
+}
+
+.section-premium .slider-pointer{
+    margin-top: -160px;
+    height: 15px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.section-premium .slider-pointer .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.section-premium .slider-pointer .pointer.active{
+    background-color: #B28756;
 }
 
-
+.section-premium .button{
+    justify-content: center;
+    align-items: center;
+}
