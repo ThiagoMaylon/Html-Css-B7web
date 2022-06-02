@@ -647,6 +647,47 @@ header{
 }
 
 .section-premium .button{
+    display: block;
+    margin: 35px auto 0px;
+    width: 180px;
     text-align: center;
 }
 
+
+
+
+.section-facts{
+    display: flex;
+    align-items: center;
+}
+.section-facts .section-fact{
+    flex: 1 1 0%;
+    text-align: center;
+    padding: 15px;
+}
+.section-fact p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+    text-align: unset;
+}
+
+.section-fact .number{
+    color: #B28756;
+    font-weight: bold;
+    font-size: 3.5em;
+    text-align: center;
+}
+.section-fact h4{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.section-fact  .span {
+    background-color: #555;
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+}
