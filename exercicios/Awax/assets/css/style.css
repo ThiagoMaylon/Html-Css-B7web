@@ -692,3 +692,15 @@ header{
     height: 3px;
     margin: 5px 0px;
 }
+
+.section-redes{
+    background-color: #f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.section-redes .redesarea{
+    display: flex;
+    padding: 20px;
+}
