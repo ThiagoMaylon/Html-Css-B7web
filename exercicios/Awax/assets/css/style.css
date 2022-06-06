@@ -694,7 +694,6 @@ header{
 }
 
 .section-redes{
-    background-color: #f00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -702,5 +701,50 @@ header{
 }
 .section-redes .redesarea{
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
+}
+.section-redes .redesarea .icone{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-redes .redesarea .icone span{
+    margin-left: 5px;
+    color: #7f7f7f;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.section-redes .redesarea .share{
+    margin-right: 30px;
+}
+.section-redes .redesarea .twitter img{
+    background-color: #33c4f0;
+    padding: 7px;
+}
+.section-redes .redesarea .linkedin img{
+    background-color: #117db4;
+    padding: 7px;
+}
+.section-redes .redesarea .facebook img{
+    background-color: #336296;
+    padding: 7px;
+}
+.section-redes .redesarea .googleplus img{
+    background-color: #e74238;
+    padding: 7px;
+}
+.section-redes .redesarea .pinterest img{
+    background-color: #b81d2a;
+    padding: 7px;
+}
+
+
+.section-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
