@@ -611,7 +611,7 @@ header{
     list-style-type: none;
     margin-top: 30px;
     display: flex;
-    align-items: center;
+    align-items: center;    
     text-align: left;
 }
 .section-premium--right-itens-title img{
@@ -824,4 +824,45 @@ header{
 .section-map--info-itens-img img{
     width: 15px;
     height: auto;
+}
+
+footer{
+    background-color: #000;
+    width: 100vw;
+    color: #fff;
+}
+.footer-area{
+    width: 100vw;
+    max-width: 1140px;
+    height: 260px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-footer--redes{
+    width: 300px;
+}
+.section-footer--redes .section-footer--redes-area{
+    display: flex;
+}
+.section-footer--redes .section-footer--redes-area .icon{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #999;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.section-footer--text{
+    width: 350px;
+    margin: 0px 30px 0px 100px;
+    color: #999;
+}
+
+.section-footer--form{
+    width: 350px;
 }
