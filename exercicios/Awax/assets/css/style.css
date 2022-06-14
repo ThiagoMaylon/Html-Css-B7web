@@ -831,6 +831,20 @@ footer{
     width: 100vw;
     color: #fff;
 }
+.section-footer--circle{
+    background-color: #B28756;
+    font-size: 4em;
+    text-align: center;
+    font-weight: lighter;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 50px;
+    
+}
 .footer-area{
     width: 100vw;
     max-width: 1140px;
@@ -842,6 +856,8 @@ footer{
 }
 .section-footer--redes{
     width: 300px;
+    display: flex;
+    flex-direction: column;
 }
 .section-footer--redes .section-footer--redes-area{
     display: flex;
@@ -860,5 +876,46 @@ footer{
 .section-footer--redes .section-footer--redes-area .icone:hover,
 .section-footer--redes .section-footer--redes-area .icone.active {
     background-color: #B28756;
+    cursor: pointer;
+}
+.section-footer--copy{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 130px;
+}
+
+.section-footer--text{
+    color: #999;
+    width: 350px;
+}
+
+
+.section-footer--form{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.section-footer--form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-footer--form .email{
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+.section-footer--form .button{
+    border: none;
     cursor: pointer;
 }
