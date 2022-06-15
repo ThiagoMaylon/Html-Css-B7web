@@ -843,7 +843,8 @@ footer{
     transform: rotate(-90deg);
     position: absolute;
     left: 50px;
-    
+    top: 6300px ;
+    cursor: pointer;
 }
 .footer-area{
     width: 100vw;
