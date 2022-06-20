@@ -960,4 +960,51 @@ footer{
         border: 0;
         color: #B28756;
     }
+
+    .section-aboutus{
+        flex-direction: column;
+    }
+
+    .section-aboutus-left{
+        margin: 0px 30px 30px 30px;
+    }
+    .section-aboutus-right{
+        width: auto;
+    }
+
+    .section-services{
+        flex-wrap: wrap;
+    }
+    .section-service{
+        min-width: 50%;
+    }
+    .section-service:first-child{
+        border-left: 0px;
+    }
+
+    .section-team{
+        width: 580px;
+    }
+
+    .section-map{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-map--area{
+        width: auto;
+    }
+    .section-map--info{
+        width: auto;
+    }
+    .section-map--info-itens{
+        margin-bottom: 20px;
+    }
+    .section-map--info-itens:last-child{
+        margin-bottom: 0px;
+    }
+
+
+    .section-footer--circle{
+        display: none;
+    }
 }
