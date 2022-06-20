@@ -1008,3 +1008,97 @@ footer{
         display: none;
     }
 }
+@media (max-width: 450px) {
+    .logo{
+        margin-left: 30px;
+    }
+    .menu-opener{
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    nav{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li a{
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+    .menu li.active a{
+        border: 0;
+        color: #B28756;
+    }
+    .banner .slidearea h1{
+        font-size: 30px;
+    }
+    .banner .slidearea h2{
+        font-size: 17px;
+    }
+    .section-aboutus{
+        flex-direction: column;
+    }
+
+    .section-aboutus-left{
+        margin: 0px 30px 30px 30px;
+    }
+    .section-aboutus-right{
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section-aboutus-right img{
+        width: 100%;
+    }
+
+    .section-services{
+        flex-wrap: wrap;
+    }
+    .section-service{
+        min-width: 100%;
+    }
+    .section-service:first-child{
+        border-left: 0px;
+    }
+
+    .section-team{
+        width: 580px;
+    }
+    .section-projects-filter{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section-map{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-map--area{
+        width: auto;
+    }
+    .section-map--info{
+        width: auto;
+    }
+    .section-map--info-itens{
+        margin-bottom: 20px;
+    }
+    .section-map--info-itens:last-child{
+        margin-bottom: 0px;
+    }
+
+
+    .section-footer--circle{
+        display: none;
+    }
+}
