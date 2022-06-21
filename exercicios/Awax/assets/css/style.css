@@ -986,6 +986,36 @@ footer{
         width: 580px;
     }
 
+
+    .section-marcas .marca-5,
+    .section-marcas .marca-6{
+        display: none;
+    }
+    .section-premium .sliders{
+        height: auto;
+        margin-bottom: 160px;
+    }
+    .section-premium .slidearea{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section-facts{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-facts{
+        min-width: 50%;
+    }
+    .section-facts:first-child{
+        border-left: 0px;
+    }
+    .section-prices{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
     .section-map{
         padding-left: 30px;
         padding-right: 30px;
@@ -1074,15 +1104,32 @@ footer{
     }
 
     .section-team{
-        width: 580px;
+        width: 280px;
+    }
+
+    .section-marcas .marca-3,
+    .section-marcas .marca-4,
+    .section-marcas .marca-5,
+    .section-marcas .marca-6{
+        display: none;
+    }
+    .section-prices{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .section-premium  .slidearea{
+        display: flex;
+        flex-direction: column;
     }
     .section-projects-filter{
         margin-left: 30px;
         margin-right: 30px;
     }
     .section-map{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 0;
+        padding-bottom: 250px;
     }
     .section-map--area{
         width: auto;
