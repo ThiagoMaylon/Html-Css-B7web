@@ -1116,6 +1116,15 @@ footer{
     .section-team{
         width: 280px;
     }
+    
+    .section-client{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
 
     .section-marcas .marca-3,
     .section-marcas .marca-4,
