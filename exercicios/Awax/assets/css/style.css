@@ -1000,17 +1000,22 @@ footer{
         flex-direction: column;
         height: auto;
     }
+    
+    .section-premium .slidearea .section-premium--right-itens .del{
+        overflow-wrap: break-word;  
+        word-wrap: break-word; 
+        word-break: break-word;
+    }
 
     .section-facts{
-        display: flex;
-        flex-wrap: wrap;
+       flex-direction: column;
+ 
     }
     .section-facts{
         min-width: 50%;
     }
-    .section-facts:first-child{
-        border-left: 0px;
-    }
+
+
     .section-prices{
         display: flex;
         flex-wrap: wrap;
@@ -1033,9 +1038,14 @@ footer{
         margin-bottom: 0px;
     }
 
-
     .section-footer--circle{
         display: none;
+    }
+
+    .footer-area{
+        font-size: 1em;
+        height: auto;
+        padding: 10px;
     }
 }
 @media (max-width: 450px) {
