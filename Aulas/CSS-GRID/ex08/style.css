@@ -33,3 +33,13 @@ footer{
 .ad{
     grid-template-columns: ad;
 }
+
+@media (max-width: 750px) {
+    .conteiner{
+        grid-template-areas:
+        "header header header header menu menu"
+        "content content content content content content"
+        "footer footer footer footer footer ad"
+    ;
+    }
+}
