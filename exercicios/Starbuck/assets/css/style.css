@@ -11,3 +11,54 @@ header .line{
     background-color: #117050;
     height: 10px;
 }
+
+.conteiner{
+    width: 1140px;
+    margin: auto;
+}
+
+.header--area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo img{
+    width: 64px;
+    height: 64px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-search form{
+    display: flex;
+}
+.header-search input{
+    font-size: 16px;
+    padding: 8px 15px;
+    border: 1px solid #999999;
+    outline: none;
+    width: 100%;
+    max-width: 250px;
+}
+.header-search button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: -30px;
+}
+.header-search button img{
+    width: 16px;
+}
+
+.header-menu{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.header-menu img{
+    width: 24px;
+    height: 24px;
+}
