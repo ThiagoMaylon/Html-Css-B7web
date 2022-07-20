@@ -1,64 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
 }
 
-header .line{
-    background-color: #117050;
-    height: 10px;
+header .line {
+  background-color: #117050;
+  height: 10px;
 }
 
-.conteiner{
-    width: 1140px;
-    margin: auto;
+.conteiner {
+  max-width: 1140px;
+  margin: auto;
 }
 
-.header--area{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
+.header--area {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
 }
 
-.logo img{
-    width: 64px;
-    height: 64px;
+.logo img {
+  width: 64px;
+  height: 64px;
 }
 
-.header-right{
-    display: flex;
-    align-items: center;
-}
-.header-search form{
-    display: flex;
-}
-.header-search input{
-    font-size: 16px;
-    padding: 8px 15px;
-    border: 1px solid #999999;
-    outline: none;
-    width: 100%;
-    max-width: 250px;
-}
-.header-search button{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin-left: -30px;
-}
-.header-search button img{
-    width: 16px;
+.header-right {
+  display: flex;
+  align-items: center;
 }
 
-.header-menu{
-    margin-left: 50px;
-    cursor: pointer;
+.header-search form {
+  display: flex;
 }
-.header-menu img{
-    width: 24px;
-    height: 24px;
+.header-search input {
+  font-size: 16px;
+  padding: 8px 15px;
+  border: 1px solid #999999;
+  outline: none;
+  width: 100%;
+  max-width: 250px;
 }
+.header-search button {
+  border: none;
+  background: transparent;
+  margin-left: -30px;
+  cursor: pointer;
+}
+.header-search button img {
+  width: 16px;
+  height: 16px;
+}
+
+.header-menu {
+  margin-left: 50px;
+  cursor: pointer;
+}
+.header-menu img {
+  width: 24px;
+  height: 24px;
+}
+
+.banner {
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.banner h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.banner .conteiner--imgs {
+  margin-top: 60px;
+}
+.banner .conteiner--imgs img {
+  width: 148px;
+  height: 148px;
+  border: 6px solid #117050;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
