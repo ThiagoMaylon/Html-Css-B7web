@@ -9,6 +9,40 @@ header .line {
   height: 10px;
 }
 
+.bar{
+  background-color: #117050;
+  width: 168px;
+  height: 22px;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+h2{
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 45px;
+  margin: 20px 0;
+
+}
+
+.button{
+  border: 2px solid #454545;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 3px;
+  color: #454545;
+  text-decoration: none;
+}
+.button:hover{
+  color: #fff;
+  background-color: #454545;
+}
 .conteiner {
   max-width: 1140px;
   margin: auto;
@@ -69,13 +103,7 @@ header .line {
   padding-top: 90px;
   padding-bottom: 90px;
 }
-.banner h1 {
-  font-family: "Oswald", sans-serif;
-  font-weight: bold;
-  font-size: 90px;
-  margin: 0;
-  margin-bottom: 30px;
-}
+
 .banner .conteiner--imgs {
   margin-top: 60px;
 }
@@ -86,5 +114,71 @@ header .line {
   border-radius: 50%;
   margin-right: 40px;
 }
+.area1,
+.area2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.area1--content,
+.area2--content{
+  padding: 80px;
+}
+.area1--quote{
+  margin-bottom: 30px;
+  font-style: italic;
+}
+.area1--text,
+.area3--text{
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+.area1--img1{
+  background-color: green;
+  background-image: url('../images/f2.jpg');
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+}
+.area1--img2{
+  background-color: red;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  background-image: url('../images/f1.jpg');
+  background-position: center;
+  background-size: cover;
+}
 
-/*# sourceMappingURL=style.css.map */
+
+.area2--img1{
+  background-color: green;
+  background-image: url('../images/f4.jpg');
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+}
+.area2--img2{
+  background-color: red;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background-image: url('../images/f3.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.area3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.area3--content{
+  background-color: blue;
+  background-image: url('../images/bg2.jpg');
+  background-position: left;
+  background-size: cover;
+  padding: 200px 80px;
+}
+.area3--img{
+  background-color: blueviolet;
+  background-image: url('../images/f5.jpg');
+  background-position: center;
+  background-size: cover;
+}
