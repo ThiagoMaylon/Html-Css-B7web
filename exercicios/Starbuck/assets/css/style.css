@@ -128,7 +128,8 @@ h2{
   font-style: italic;
 }
 .area1--text,
-.area3--text{
+.area3--text,
+.area4--text{
   margin-bottom: 50px;
   line-height: 25px;
 }
@@ -181,4 +182,40 @@ h2{
   background-image: url('../images/f5.jpg');
   background-position: center;
   background-size: cover;
+}
+
+.area4{
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  background-color: #e8e9ee;
+}
+.area4--content{
+  padding: 150px 80px;
+}
+.area4--img1{
+  background-image: url('../images/bg3.jpg');
+  background-position: left;
+}
+
+.area5{
+  background-image: url('../images/bg4.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+footer{
+  background-color: #333333;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+footer p{
+  margin-bottom: 100px;
+}
+footer a{
+  color: #a8f8dd;
+}
+footer a:hover{
+  text-decoration: none;
 }
